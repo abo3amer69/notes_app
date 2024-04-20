@@ -12,11 +12,13 @@ class CustomAppBar extends StatelessWidget {
       children: [
         Text(
           title,
-          style:const TextStyle(
+          style: const TextStyle(
             fontSize: 28,
           ),
         ),
-        CustomSearchIcon(icon: icon,),
+        CustomSearchIcon(
+          icon: icon,
+        ),
       ],
     );
   }
