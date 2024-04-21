@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 import 'package:note_app/constants.dart';
 import 'package:note_app/views/widgets/custom_text_field.dart';
